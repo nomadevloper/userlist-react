@@ -1,0 +1,19 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.content-container label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.content-container input {
+  padding: 0.15rem;
+}
+
+.content-container input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
